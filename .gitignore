@@ -1,5 +1,4 @@
 .idea
 *.iml
 target
-/cookies/*
-cookies.txt
+/cookies/*.txt
