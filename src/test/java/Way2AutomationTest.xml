@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTests">
+  <test name="LoginTest">
+    <parameter name="email" value="kimimahri@gmail.com"/>
+    <parameter name="password" value="Test1!"/>
+    <parameter name="url" value="https://courses.way2automation.com/"/>
+    <parameter name="timeout" value="10"/>
+    <classes>
+      <class name="Way2AutomationTest"/>
+    </classes>
+  </test>
+</suite>
